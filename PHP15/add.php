@@ -44,7 +44,7 @@ if($_SERVER["REQUEST_METHOD"]=="ADD"){
             background-color: #fff;
             border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 4px 10px #A67B5B;
+            box-shadow: 0 4px 10px #C08261;
             border: 2px solid transparent;
             background-clip: padding-box;
         }
@@ -57,19 +57,19 @@ if($_SERVER["REQUEST_METHOD"]=="ADD"){
 
         /* Stylish buttons */
         .btn-primary {
-            background: linear-gradient(to right, #66785F, #B2C9AD);
+            background: linear-gradient(to right, #E1C78F, #B0926A);
             border: none;
             transition: all 0.3s ease;
         }
 
         .btn-primary:hover {
-            background: linear-gradient(to right, #66785F, #B2C9AD);
+            background: linear-gradient(to right, #E1C78F, #B0926A);
             transform: scale(1.05);
         }
 
         /* Links with hover effect */
         a {
-            color: #6a11cb;
+            color: #FAE7C9;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
@@ -87,8 +87,8 @@ if($_SERVER["REQUEST_METHOD"]=="ADD"){
         }
 
         input.form-control:focus {
-            border-color: #4B5945;
-            box-shadow: 0 0 8px #91AC8F;
+            border-color: #C08261;
+            box-shadow: 0 0 8px #E2C799;
         }
 
         /* Title */
